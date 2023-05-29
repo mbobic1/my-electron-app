@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: url(../renderer/img/tiketshop.png);
+    /*background-repeat: no-repeat;*/
+  }
+  #error-container{
+    padding-top: 20%;
+
+  }
+  #login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0041c3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #1251cf;
+  }
+  
+  label {
+    font-size: 20px;
+  }
+  
+  a {
+    color:#1251cf;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

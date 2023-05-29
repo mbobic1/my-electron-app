@@ -1,0 +1,20 @@
+{
+  "name": "ticket-shop",
+  "productName": "ticket-shop",
+  "version": "1.0.0",
+  "description": "ticketshop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Bobic Muris",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^24.4.0",
+    "electron-builder": "^23.6.0"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "toastify-js": "^1.12.0"
+  }
+}
